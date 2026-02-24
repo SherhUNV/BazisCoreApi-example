@@ -1,0 +1,27 @@
+# pyproject.toml
+
+[project]
+name = "BazisCorePythonAPI" # Must be a unique name on PyPI
+version = "0.1.0"
+
+authors = [
+  { name="TestUser", email="unv@plm-ural.ru" }]
+
+description = "Test python package for creating BazisCore API on python via package"
+readme = "README.md"
+requires-python = ">=3.13"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"]
+
+dependencies = [
+    # List any dependencies here, e.g., "numpy >= 1.20"
+    "pythonnet >= 3.0.5",
+    "clr_loader >= 0.2.10"]
+
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
