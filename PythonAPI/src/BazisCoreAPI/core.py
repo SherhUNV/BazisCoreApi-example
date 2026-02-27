@@ -4,12 +4,12 @@ from pythonnet import load
 from pathlib import Path
 
 
-dll_folder = Path(__file__).joinpath('libs')
+dll_folder = Path(__file__).parent.joinpath('libs')
 if dll_folder not in sys.path:
     sys.path.append(dll_folder)
 
 load("coreclr")
 import clr
-clr.AddReference("TestLib")
+clr.AddReference(os.path.join(dll_folder, 'TestLib.dll'))
 
 from TestLib import Class1

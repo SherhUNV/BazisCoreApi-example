@@ -1,4 +1,4 @@
-from core import *
+from BazisCoreAPI import core
 from TestLib import Class1
 
 

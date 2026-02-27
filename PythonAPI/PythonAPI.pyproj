@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="src\BazisCoreAPI\core.py" />
     <Compile Include="src\BazisCoreAPI\PythonAPI.py" />
+    <Compile Include="src\BazisCoreAPI\setup.py" />
     <Compile Include="src\BazisCoreAPI\__init__.py" />
     <Compile Include="src\BazisCoreAPI\APIClass.py" />
   </ItemGroup>
