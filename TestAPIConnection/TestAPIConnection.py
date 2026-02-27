@@ -1,4 +1,5 @@
-from APIClass import APIClass
+from BazisCoreAPI import core
+from BazisCoreAPI import APIClass
 
 
 instance = APIClass()

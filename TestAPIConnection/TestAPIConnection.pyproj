@@ -2,15 +2,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>2d26855a-cdbe-4bd6-b793-8b466a9813bd</ProjectGuid>
+    <ProjectGuid>5f91cd3e-1b7b-4b9f-ac1e-31264c43ab26</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>src\BazisCoreAPI\PythonAPI.py</StartupFile>
+    <StartupFile>TestAPIConnection.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonAPI</Name>
-    <RootNamespace>PythonAPI</RootNamespace>
+    <Name>TestAPIConnection</Name>
+    <RootNamespace>TestAPIConnection</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>Global|PythonCore|3.13</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,20 +23,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="src\BazisCoreAPI\core.py" />
-    <Compile Include="src\BazisCoreAPI\PythonAPI.py" />
-    <Compile Include="src\BazisCoreAPI\__init__.py" />
-    <Compile Include="src\BazisCoreAPI\APIClass.py" />
+    <Compile Include="TestAPIConnection.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\" />
-    <Folder Include="src\BazisCoreAPI\" />
-    <Folder Include="src\BazisCoreAPI\libs\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="LICENSE.txt" />
-    <Content Include="pyproject.toml" />
-    <Content Include="README.md" />
+    <InterpreterReference Include="Global|PythonCore|3.13" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

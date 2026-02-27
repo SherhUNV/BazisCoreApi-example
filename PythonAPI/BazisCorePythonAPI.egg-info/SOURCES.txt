@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+BazisCorePythonAPI.egg-info/PKG-INFO
+BazisCorePythonAPI.egg-info/SOURCES.txt
+BazisCorePythonAPI.egg-info/dependency_links.txt
+BazisCorePythonAPI.egg-info/requires.txt
+BazisCorePythonAPI.egg-info/top_level.txt
+src/BazisCoreAPI/APIClass.py
+src/BazisCoreAPI/PythonAPI.py
+src/BazisCoreAPI/__init__.py

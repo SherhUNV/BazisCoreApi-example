@@ -8,8 +8,8 @@
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
   </PropertyGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy &quot;.\bin\Debug\net8.0\TestLib.dll&quot; &quot;.\..\PythonAPI\src\libs\&quot;" />
-  </Target>
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
 
 </Project>

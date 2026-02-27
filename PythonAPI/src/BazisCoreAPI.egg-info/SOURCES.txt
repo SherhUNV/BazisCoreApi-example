@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/BazisCoreAPI/APIClass.py
+src/BazisCoreAPI/PythonAPI.py
+src/BazisCoreAPI/__init__.py
+src/BazisCoreAPI/core.py
+src/BazisCoreAPI.egg-info/PKG-INFO
+src/BazisCoreAPI.egg-info/SOURCES.txt
+src/BazisCoreAPI.egg-info/dependency_links.txt
+src/BazisCoreAPI.egg-info/requires.txt
+src/BazisCoreAPI.egg-info/top_level.txt
+src/BazisCoreAPI/libs/TestLib.dll

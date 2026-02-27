@@ -1,16 +1,17 @@
 # pyproject.toml
 
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "BazisCorePythonAPI" # Must be a unique name on PyPI
+name = "BazisCoreAPI" # Must be a unique name on PyPI
 version = "0.1.0"
-
-authors = [
-  { name="TestUser", email="unv@plm-ural.ru" }]
-
 description = "Test python package for creating BazisCore API on python via package"
 readme = "README.md"
 requires-python = ">=3.13"
-
+authors = [
+  { name="TestUser", email="unv@plm-ural.ru" }]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -21,7 +22,12 @@ dependencies = [
     "pythonnet >= 3.0.5",
     "clr_loader >= 0.2.10"]
 
+[tool.setuptools.packages.find]
+where = ["src"] # if using src-layout
+include = ["BazisCoreAPI*"]
 
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
+[tool.setuptools.package-data]
+"BazisCoreAPI" = ["libs/*.dll"]
+
+[tool.setuptools.exclude-package-data]
+"BazisCoreAPI" = ["*.dll"]

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLib", "TestLib\TestLib.
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonAPI", "PythonAPI\PythonAPI.pyproj", "{2D26855A-CDBE-4BD6-B793-8B466A9813BD}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TestAPIConnection", "TestAPIConnection\TestAPIConnection.pyproj", "{5F91CD3E-1B7B-4B9F-AC1E-31264C43AB26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2D26855A-CDBE-4BD6-B793-8B466A9813BD}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{2D26855A-CDBE-4BD6-B793-8B466A9813BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D26855A-CDBE-4BD6-B793-8B466A9813BD}.Release|x64.ActiveCfg = Release|Any CPU
+		{5F91CD3E-1B7B-4B9F-AC1E-31264C43AB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F91CD3E-1B7B-4B9F-AC1E-31264C43AB26}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5F91CD3E-1B7B-4B9F-AC1E-31264C43AB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F91CD3E-1B7B-4B9F-AC1E-31264C43AB26}.Release|x64.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
